@@ -2,6 +2,8 @@ const express = require('express');
 const connection = require('./database/database');
 const app = express();
 
+const Espada = require('./models/Espada');
+
 connection.authenticate().then(() => {
     console.log("Conectado com sucesso ao banco de dados!");
 }).catch((err) => {
