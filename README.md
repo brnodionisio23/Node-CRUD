@@ -10,3 +10,5 @@
 5° - instalação e configuração do body-parser.
 
 6° - Configurando o controller de espadas na aplicação.
+
+7° - C.r.u.d. - Criando um elemento na tabela do banco de dados.
