@@ -6,3 +6,5 @@
 3° - Realizando a conexão com o banco de dados, instalamos o sequelize (ORM) "npm install sequelize" e o modulo de conexão com o mysql "npm install mysql2".
 
 4° - Criando o model "espadas" (representação de uma tabela slq).
+
+5° - instalação e configuração do body-parser.
