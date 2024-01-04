@@ -12,4 +12,10 @@ router.post('/salvarespada', (req, res) => {
     res.send("Espada salva!");
 })
 
+router.get('/pesquisarespadas', (req, res) => {
+    Espada.findAll().then(espada => {
+        res.json(JSON.stringify(espada))
+    })
+})
+
 module.exports = router;
