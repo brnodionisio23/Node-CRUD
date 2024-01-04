@@ -18,4 +18,21 @@ router.get('/pesquisarespadas', (req, res) => {
     })
 })
 
+router.post('/atualizarespada/:id', (req, res) => {
+    const id = req.params.id;
+    const { nome, dano, elemento } = req.body;
+    Espada.findByPk(id).then(espada => {
+        if (!espada) {
+            return res.status(404).send("Espada não encontrada!");
+        } else {
+            Espada.update({
+                nome: nome || espada.nome,
+                dano: dano || espada.dano,
+                elemento: elemento || espada.elemento
+            }, { where: { id: id } })
+            res.send("Espada atualizada!");
+        }
+    })
+})
+
 module.exports = router;

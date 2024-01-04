@@ -14,3 +14,5 @@
 7° - C.r.u.d. - Criando um elemento na tabela do banco de dados.
 
 8° - c.R.u.d. - Lendo os dados da tabela do banco de dados.
+
+9° - c.r.U.d. - Atualizando dados da tabela do banco de dados.
