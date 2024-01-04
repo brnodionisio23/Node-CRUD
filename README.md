@@ -8,3 +8,5 @@
 4° - Criando o model "espadas" (representação de uma tabela slq).
 
 5° - instalação e configuração do body-parser.
+
+6° - Configurando o controller de espadas na aplicação.
