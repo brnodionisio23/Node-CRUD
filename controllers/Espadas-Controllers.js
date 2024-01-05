@@ -35,4 +35,12 @@ router.post('/atualizarespada/:id', (req, res) => {
     })
 })
 
+router.delete('/deletarespada/:id', (req, res) => {
+    const id = req.params.id;
+    Espada.destroy({ where: { id: id } }).then(() => {
+        res.send(`Espada deletada!`);
+    })
+})
+
+
 module.exports = router;

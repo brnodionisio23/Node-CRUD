@@ -16,3 +16,5 @@
 8° - c.R.u.d. - Lendo os dados da tabela do banco de dados.
 
 9° - c.r.U.d. - Atualizando dados da tabela do banco de dados.
+
+10°- c.r.u.D. - Deletando uma espada da tabela do banco de dados.
